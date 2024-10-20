@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="productos.html" class="logo">Alunaki's Market</a>
+            <a href="productos.html" class="Carrito_compraB">Regresar a Productos</a>
+        </div>
+    </header>
+    <div class="containers">
+        <h2>Carrito de Compras</h2>
+        <div id="carrito-container" class="product-grid">
+        </div>
+        <div class="total">
+            <h3>Total a pagar: S/ <span id="total-pagar">0.00</span></h3>
+            <button id="checkout">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Gracias por su compra</h2>
+            <p>Su pedido ha sido procesado exitosamente.</p>
+            <button id="close-modal" class="modal-button">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="carrito.js"></script>
+</body>
+</html>
